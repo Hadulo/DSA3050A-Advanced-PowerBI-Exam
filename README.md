@@ -1,8 +1,8 @@
 # DSA 3050A Advanced Power BI Exam: Healthcare Analytics Dashboard
 
 ## Student Information
-- **Student Name:** [Your Full Name]
-- **Admission Number:** [Your Admission Number]
+- **Student Name:** Andy Emmanuel Hadulo
+- **Admission Number:** 668059
 - **Course Code:** DSA 3050A
 - **Semester:** Spring Semester 2026
 - **Institution:** United States International University Africa
@@ -10,7 +10,7 @@
 ---
 
 ## Project Overview
-An advanced Power BI analytical solution built on a hospital admissions
+An advanced Power BI analytical solution built on hospital admissions
 dataset of 55,500 records spanning 2019 to 2024. The solution covers
 billing performance, patient admission trends, clinical outcomes, and
 operational efficiency across a network of hospitals.
@@ -19,7 +19,7 @@ operational efficiency across a network of hospitals.
 
 ## Problem Statement
 Hospital management lacks a structured way to monitor billing revenue,
-track admission patterns across medical conditions, evaluate test result
+track admission patterns across medical conditions, evaluate test results
 outcomes, and compare performance across insurance providers and time
 periods. This dashboard addresses those gaps through an interactive
 multi-page Power BI report.
@@ -49,7 +49,7 @@ multi-page Power BI report.
 ## Steps Followed
 1. Acquired dataset from Kaggle and inspected raw data
 2. Imported into Power BI and opened Power Query Editor
-3. Applied 10 transformation steps including removing duplicates,
+3. Applied 10 transformation steps, including removing duplicates,
    fixing data types, handling negative billing values,
    standardising name casing, and creating derived columns
 4. Built a star schema with 5 dimension tables, 1 fact table,
@@ -69,7 +69,7 @@ multi-page Power BI report.
   top 10 highest billing admissions table
 - **Page 3 - Insights and Performance:** YTD billing line chart,
   year-over-year growth chart, abnormal test rate by condition,
-  admission type donut chart, page navigation buttons
+  admission type doughnut chart, page navigation buttons
 
 ---
 
@@ -92,7 +92,7 @@ multi-page Power BI report.
 2. 67% of admissions are unplanned (Emergency or Urgent)
 3. Abnormal test rates are uniform at 33% across all conditions
 4. 2024 data represents a partial year and should not be compared
-   directly to full prior years
+   directly to the full prior years
 5. All five insurance providers show equal admission volumes
    and consistent average billing
 
@@ -100,21 +100,21 @@ multi-page Power BI report.
 
 ## Challenges Encountered
 [Describe any issues you faced, for example:]
-- Negative billing values required filtering before analysis
+- Negative billing values require filtering before analysis
 - 534 duplicate rows were identified and removed
 - The flat file required manual splitting into a star schema
-- TestResults had to be explicitly retained in Fact_Admissions
+- Test results had to be explicitly retained in Fact_Admissions
   when building dimension tables
 
 ---
 
 ## Conclusion
 This project demonstrates a complete end-to-end Power BI solution
-covering data cleaning, star schema modeling, DAX calculations,
+covering data cleaning, star schema modelling, DAX calculations,
 interactive dashboard design, and business insight generation.
 The solution provides hospital management with actionable visibility
 into billing performance, clinical outcomes, and admission trends
-across a six-year period.
+across six years.
 
 ---
 ## Power BI File
@@ -123,7 +123,7 @@ hosted on Google Drive.
 
 [Click here to download the Power BI file](https://drive.google.com/file/d/14WMyOeUWoZKRKoKTnmS9SGY2c4IcV3XT/view?usp=sharing)
 
-> To open: download the file and open with Power BI Desktop.
+> To open: download the file and open it with Power BI Desktop.
 ## Repository Structure
 ```
 DSA3050A-Advanced-PowerBI-Exam/
